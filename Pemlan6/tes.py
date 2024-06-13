@@ -1,0 +1,26 @@
+# from Paket import pangkat, lingkaran
+
+# print(f"Luas Lingkaran: {lingkaran(5)}")
+# print(f"10 pangkat 3: {pangkat(10, 3)}")
+
+from Paket import balok, kubus, limas_segiempat, bola, pangkat, jumlah, RataRata
+print()
+print(f"Luas Balok: {balok(5,8,4)}")
+print(f"Pangkat Balok: {pangkat(5,8)}")
+print(f"Jumlah Balok: {jumlah(5,8)}")
+print(f"Rata-rata Balok: {RataRata(5,8)}")
+print()
+print(f"Luas Kubus: {kubus(10)}")
+print(f"Pangkat Kubus: {pangkat(10,11)}")
+print(f"Jumlah Kubus: {jumlah(10,11)}")
+print(f"Rata-rata Kubus: {RataRata(10,11)}")
+print()
+print(f"Luas Limas Segiempat: {limas_segiempat(5,8)}")
+print(f"Pangkat Limas Segiempat: {pangkat(5,8)}")
+print(f"Jumlah Limas Segiempat: {jumlah(5,8)}")
+print(f"Rata-rata Limas Segiempat: {RataRata(5,8)}")
+print()
+print(f"Luas Bola: {bola(4)}")
+print(f"Pangkat Bola: {pangkat(4,5)}")
+print(f"Jumlah Bola: {jumlah(4,5)}")
+print(f"Rata-rata Bola: {RataRata(4,5)}")
